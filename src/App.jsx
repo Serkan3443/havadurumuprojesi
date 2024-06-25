@@ -23,7 +23,7 @@ function App() {
     }, [location]);
 
     const handleLocationChange = (event) => {
-        setLocation(event.target.value);
+        setLocation(event.target.value);//
     };
 
     return (
