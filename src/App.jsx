@@ -3,13 +3,17 @@ import axios from 'axios';
 import './App.css';
 
 function App() {
-    const [weatherData, setWeatherData] = useState(null);
+    const [weatherData, setWeatherData] = useState(null);//weatherData: Bu deðiþken, hava durumu verilerini tutacak olan durum (state) deðiþkenidir.setWeatherData: Bu ise weatherData deðiþkenini güncellemek için kullanýlan fonksiyondur (setter).useState(null): Ýlk deðer olarak null verilmiþtir. Yani, baþlangýçta weatherData deðiþkeni boþ olarak tanýmlanmýþtýr.
     const [location, setLocation] = useState('');
 
+    // useEffect hook'u ile veri çekme iþlemi
     useEffect(() => {
         const fetchData = async () => {
             try {
+                // Axios ile hava durumu API'sine GET isteði gönderilmesi
                 const response = await axios.get(`http://api.weatherapi.com/v1/forecast.json?key=${import.meta.env.VITE_WEATHER_API}&q=${location}&lang=tr&days=4&aqi=yes&alerts=yes`);
+
+                // API'den gelen verinin state'e atanmasý
                 setWeatherData(response.data);
                 console.log(response);
             } catch (error) {
@@ -17,11 +21,13 @@ function App() {
             }
         };
 
+        // location state'i ve VITE_WEATHER_API deðiþkeni deðiþtiðinde fetchData fonksiyonunun çaðrýlmasý
         if (location && import.meta.env.VITE_WEATHER_API) {
             fetchData();
         }
-    }, [location]);
+    }, [location]);// useEffect'in sadece location state'i deðiþtiðinde çalýþmasý için dependency array
 
+    // Kullanýcýdan location (þehir) bilgisini alacak fonksiyon
     const handleLocationChange = (event) => {
         setLocation(event.target.value);//
     };

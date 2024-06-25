@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\havadurumuprojesi\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\havadurumuprojesi\\src\\App.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\App.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\havadurumuprojesi\\src\\App.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\App.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     }
@@ -27,14 +31,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "App.css",
+              "DocumentMoniker": "C:\\havadurumuprojesi\\src\\App.css",
+              "RelativeDocumentMoniker": "src\\App.css",
+              "ToolTip": "C:\\havadurumuprojesi\\src\\App.css",
+              "RelativeToolTip": "src\\App.css",
+              "ViewState": "AQIAABEAAAAAAAAAAAAewCEAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-25T12:30:46.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "App.jsx",
               "DocumentMoniker": "C:\\havadurumuprojesi\\src\\App.jsx",
               "RelativeDocumentMoniker": "src\\App.jsx",
               "ToolTip": "C:\\havadurumuprojesi\\src\\App.jsx",
               "RelativeToolTip": "src\\App.jsx",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAqAAAA",
+              "ViewState": "AQIAABsAAAAAAAAAAAAIwAkAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-06-24T18:02:44.076Z",
+              "WhenOpened": "2024-06-25T12:14:17.044Z",
               "EditorCaption": ""
             }
           ]
